@@ -1,0 +1,119 @@
+
+body {font-family: Arial, Helvetica, sans-serif;}
+    
+.navbar {
+  width: 100%;
+  background-color: #555;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  padding: 12px;
+  color: white;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.navbar a:hover {
+  background-color:white;
+}
+
+.active {
+  background-color: #46daa4;
+}
+
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: block;
+  }
+}
+
+.navbar a:hover{
+background: #353535;
+}
+.label{
+background-color: #555;
+color:white;
+margin: 0;
+padding-left: 0;
+font-size: 25px;
+width: 200px;
+height: 400px;
+border: 1px;
+font-stretch: condensed;
+
+}
+#Booking{
+    font-family: Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  #Booking td, #Booking th {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #Booking tr:nth-child(even){background-color: #f2f2f2;}
+  
+  #Booking tr:hover {background-color: #ddd;}
+  
+  #Booking th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #46daa4;
+    color: white;
+  }
+  .footer{
+    float: left;
+    background-color: #555;
+    width: 1200px;
+    height: 150px;
+  }
+  button{
+    background-color: green;
+
+  }
+  button1{
+    background-color: rgb(175, 22, 22);
+  }
+.insta{
+    float:right;
+    color: white;
+}
+.facebook{
+    float: right;
+    color: white;
+}
+.snapchat{
+    float: right;
+    color:white;
+}
+.linkedin{
+    float: right;
+    color: white;
+}
+.twitter{
+    float: right;
+    color: white;
+}
+.pinterest{
+    float: right;
+    color:white;
+}
+div.b {
+    text-align-last: center;
+    float: none;
+    color:#f2f2f2;
+    
+}
+
+button2{
+    float:right;
+    background-color:#46daa4;
+    width: 50px;
+    height: 30px;
+}
